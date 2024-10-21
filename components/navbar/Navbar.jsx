@@ -1,4 +1,4 @@
-import Links from "./links/Links";
+import Links from "./links/page";
 // import Button from "./next/button";
 import styles from "./navbar.module.css"
 
