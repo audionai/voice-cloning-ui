@@ -1,0 +1,130 @@
+.mava_txt {
+    font-size: 42px;
+    margin: 60px auto 0 auto;
+    /* 90 auto 0 80 */
+    font-weight: bold;
+}
+
+.mava_txt_2 {
+    font-size: 32px;
+    margin: 10px auto 0 auto;
+    color: rgb(var(--color));
+    
+}
+
+.get_sta {
+    background-color: rgb(var(--color));
+    margin: 0px auto auto auto;
+    height: 55px;
+    width: 180px;
+    padding: 15px;
+    color: rgb(var(--background));
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.get_sta:hover .arrow_right {
+transform: translateX(5px);
+}
+
+.mava_nar {
+    font-size: 15px;
+    margin: 10px auto auto auto;
+    color: rgb(var(--light-grey));
+}
+
+.main_voi {
+    margin: -15px auto;
+    width: 80%;
+}
+
+.main_voi .what_voice {
+    font-size: 32px;
+    margin: 0;
+}
+.scroll_ {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(var(--color));
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 15px;
+    z-index: 9;
+}
+
+.audio_player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(var(--grey)); */
+    width: auto;
+    border-radius: 99px;
+    padding: 15px;
+    margin: 45px auto;
+}
+
+.main_pa {
+    font-size: 18px;
+    width: 80%;
+    margin: 15px auto;
+}
+
+.srvice_{
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 2em;
+}
+
+.service_name {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.service_description {
+    font-size: 15px;
+    color: rgb(var(--light-grey));
+    width: 80%;
+}
+
+.main_pa {
+    font-size: 15px;
+    color: rgb(var(--light-grey));
+    margin: 6rem auto;
+}
+
+.lang_container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 15px;
+}
+
+.main_support_lang {
+    font-size: 26px;
+    font-weight: 80;
+    width: 100%;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}

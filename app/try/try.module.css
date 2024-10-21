@@ -1,0 +1,43 @@
+.main_cont {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.main_p {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px auto 10px 15px;
+}
+
+.textarea_try {
+    width: 100%;
+    margin: 10px auto;
+    height:150px;
+    border-radius: 15px;
+    padding: 10px;
+    outline: none;
+    color: rgb(var(--color));
+    background-color: rgb(var(--grey));
+}
+
+.menu_dropdown {
+    display: flex;
+    width: 100%;
+    margin: 15px auto;
+    align-items: top;
+    justify-content: left;
+    gap: 15px;
+}
+
+.play_btn {
+    background-color: rgb(var(--color));
+    padding: 9px;
+    border-radius: 99px;
+    margin: 5px 15px auto auto;
+}
+
+.charct_r {
+    margin: -40px 5px auto auto;
+    width: 40px;
+}

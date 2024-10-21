@@ -1,0 +1,127 @@
+.pricing_card_cont {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 99%;
+    margin: auto;
+    height: auto;
+}
+
+.pricing_card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: top;
+    justify-content: center;
+    width: 20%;
+    background-color: rgb(var(--white));
+    border-radius: 18px;overflow: hidden;
+    transition: .6s;
+}
+
+.pricing_card:nth-child(1) {
+    background-color: rgb(var(--grey));
+}
+.pricing_card:nth-child(2) {
+    background-color: rgb(var(--grey));
+}
+.pricing_card:nth-child(3) {
+    background-color: rgb(var(--grey));
+}
+.pricing_card:nth-child(4) {
+    background-color: rgb(var(--grey));
+}
+
+.pricing_card:hover {
+    transform: translateY(-9px);
+}
+
+.card_name {
+    display: flex;
+    margin: 0px auto;
+    font-size: 18px;
+    width: 100%;background-colo: rgb(var(--color));
+    color: rgb(var(--color));
+    justify-content: center;align-items: center;
+    height: 60px;
+}
+
+.card_offer {
+    display: flex;
+    padding: 1px 6px;
+    background-image: linear-gradient(to top left, #D41837, #D9048B);
+    color: rgb(var(--color));
+    border-radius: 4px;
+    position: relative;margin: auto 5px;
+    font-weight: bold;
+    font-size: 12px
+}
+
+.card_price {
+    font-size: 15px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 2px;
+    margin: 10px auto;
+
+}
+
+.card_price span {
+    display: flex;
+    font-size: 27px;
+    font-weight: bold;margin-top: -10px;
+}
+
+.price_per {
+    font-size: 15px;
+    margin: 10px auto;
+}
+
+.getstart_btn {
+    padding: 10px;
+    background: rgb(var(--color));
+    color: rgb(var(--white));
+    font-size: 15px;
+
+    border-radius: 9px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.getstart_btn:nth-child(1) {
+    background-color: rgb(var(--background));
+    color: rgb(var(--color));
+}
+
+@media (max-width: 720px) {
+    .pricing_card_cont{
+        display: block;
+    }
+
+    .pricing_card {
+        width: 60%;
+        margin: 45px auto;
+        
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 920px) {
+    .pricing_card_cont {
+        display: block;
+    }
+
+    .pricing_card {
+        width: 45%;
+        margin: 70px auto;
+    }
+}
+
+.main_price {
+    margin: 0px auto 30px 150px;
+    font-size: 32px;
+    font-weight: bold;
+}

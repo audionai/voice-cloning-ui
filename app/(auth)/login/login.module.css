@@ -1,0 +1,74 @@
+.login_main {
+    color: rgb(var(--color));
+}
+
+.login_p {
+    color: rgb(var(--color));
+    font-size: 32px;
+    margin: 0px auto 40px 140px;
+    font-weight: bold;
+}
+
+.social_login_container {
+    display: flex;align-items: center;justify-content: center;margin: 0px auto;flex-direction: column;
+}
+
+.login_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    gap: 15px;
+    background-color: rgb(var(--white));
+    box-shadow: 0 0 1px rgb(var(--color));
+    width: 250px;
+}
+
+.email_log {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px auto;
+    flex-direction: column;
+}
+
+.input_email {
+    display: flex;
+    padding: 10px 18px;
+    border-radius: 5px;
+    background-color: rgb(var(--grey));
+    width: 100%;
+}
+
+.input_emai {
+    width: 100%;
+}
+
+.input_email::placeholder {
+    color: rgb(var(--color));
+}
+
+.forgot_pass {
+    width: 90%;
+    color: rgb(var(--blue));
+    font-size: 12px;
+}
+
+.or_ {
+    width: 90%;
+    display: flex;
+    font-size: 12px;
+}
+
+.login_btn_in {
+    display: flex;
+    width: 70%;
+    padding: 10px;
+    background-color: rgb(var(--color));
+    color: rgb(var(--white));
+    border-radius: 5px;
+    margin: 15px auto;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="69px" height="69.99999px" viewBox="0 0 69 69.99999" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0" />
+      <feOffset dx="0" dy="0" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.49803922 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_2">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0" />
+      <feOffset dx="0" dy="2" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0.49803922 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+  </defs>
+  <g id="Group">
+    <path d="M34.5 0C53.5564 0 69 15.4436 69 34.5L69 34.5C69 53.5564 53.5564 69 34.5 69L34.5 69C15.4436 69 0 53.5564 0 34.5L0 34.5C0 15.4436 15.4436 0 34.5 0Z" id="Rectangle" fill="#FFFFFF" stroke="none" />
+    <path d="M34.7 14C46.1338 14 55.4 23.2661 55.4 34.7L55.4 34.7C55.4 46.1338 46.1338 55.4 34.7 55.4L34.7 55.4C23.2661 55.4 14 46.1338 14 34.7L14 34.7C14 23.2661 23.2661 14 34.7 14Z" id="Rectangle" fill="#000000" stroke="none" filter="url(#filter_1)" />
+    <path d="M34.6 3C37.1409 3 39.2 5.05914 39.2 7.6L39.2 35.2C39.2 37.7409 37.1409 39.8 34.6 39.8L34.6 39.8C32.0591 39.8 30 37.7409 30 35.2L30 7.6C30 5.05914 32.0591 3 34.6 3Z" id="Rectangle" fill="#FFFFFF" stroke="none" filter="url(#filter_2)" />
+    <path d="M35 11C36.1047 11 37 11.8953 37 13L37 28C37 29.1047 36.1047 30 35 30L34 30C32.8953 30 32 29.1047 32 28L32 13C32 11.8953 32.8953 11 34 11L35 11Z" id="Rectangle" fill="#000000" stroke="none" filter="url(#filter_2)" />
+  </g>
+</svg>

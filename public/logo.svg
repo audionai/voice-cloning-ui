@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="103px" height="100px" viewBox="0 0 103 100" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0" />
+      <feOffset dx="0" dy="0" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_2">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0" result="hardAlpha" />
+      <feOffset dx="0" dy="0" />
+      <feGaussianBlur stdDeviation="2" />
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.49803922 0" />
+      <feBlend mode="normal" in2="shape" result="effect0_innerShadow" />
+    </filter>
+    <path d="M0 50C0 22.3858 23.0573 0 51.5 0C79.9427 0 103 22.3858 103 50C103 77.6142 79.9427 100 51.5 100C23.0573 100 0 77.6142 0 50Z" id="path_1" />
+    <path d="M51.5 33.9994C51.5 33.9994 51.5 25 51.5 25C37.4167 25 26 36.4167 26 50.5C26 64.5833 37.4167 76 51.5 76C65.5833 76 77 64.5833 77 50.5C77 36.4167 65.5833 25 51.5 25C51.5 25 51.5 33.9994 51.5 33.9994C60.613 33.9994 68.0006 41.387 68.0006 50.5C68.0006 59.613 60.613 67.0006 51.5 67.0006C42.387 67.0006 34.9994 59.613 34.9994 50.5C34.9994 41.387 42.387 33.9994 51.5 33.9994Z" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Group">
+    <path d="M0 50C0 22.3858 23.0573 0 51.5 0C79.9427 0 103 22.3858 103 50C103 77.6142 79.9427 100 51.5 100C23.0573 100 0 77.6142 0 50Z" id="Mask" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#clip_1)">
+      <g id="Oval" filter="url(#filter_1)">
+        <use stroke="none" fill="#FFFFFF" xlink:href="#path_2" fill-rule="evenodd" filter="url(#filter_2)" />
+      </g>
+      <path d="M53 20C57.4189 20 61 23.5811 61 28L61 43C61 47.4189 57.4189 51 53 51L50 51C45.5811 51 42 47.4189 42 43L42 28C42 23.5811 45.5811 20 50 20L53 20Z" id="Rectangle" fill="#000000" stroke="none" />
+      <path d="M51.5 20C53.9856 20 56 22.0144 56 24.5L56 45.5C56 47.9856 53.9856 50 51.5 50L51.5 50C49.0144 50 47 47.9856 47 45.5L47 24.5C47 22.0144 49.0144 20 51.5 20Z" id="Rectangle" fill="#FFFFFF" stroke="none" />
+    </g>
+  </g>
+</svg>

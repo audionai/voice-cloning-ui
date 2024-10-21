@@ -1,0 +1,7 @@
+ .container {
+    color: rgb(var(--color));
+ }
+
+ .active {
+    color: rgb(var(--color));
+ }

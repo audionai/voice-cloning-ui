@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color: 14, 14, 14;
+  --background: 245, 245, 245;
+  --white: 255, 255, 255;
+  --black: 0, 0, 0;
+  --color-header: 66, 66, 66;
+  --backround-t: 249, 249, 249, 094;
+  --background-hover: 242, 242, 242;
+  --my-color: 222, 13, 79;
+  --grey: 128, 128, 129;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+* {
+  font-size: 14px;
+}
+
+img {
+  height: 15px;
+  width: 15px;
+}
+
+body {
+  color: rgb(var(--color));
+  background: rgb(var(--background));
+  display: flex;
+  flex-direction: column;width: 100%;overflow-x: hidden;
+  backgroun: linear-gradient(167deg, #d6fff5 0%, #fffcbd 42.82%, #ffdfd6 100%), radial-gradient(59.12% 54.98% at 25.7% 42%, #ffffff 62.05%, rgba(255,255,255,0.2) 100%);
+
+}
+
+p::selection , a::selection,make::selection{
+  background-color: rgb(var(--color));
+  color: rgb(var(--background));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+img {
+  user-select: none;
+}
+button {
+  user-select: none;
+}
+
+main {
+  height: auto;
+  width: 100%;
+  display: flex;
+  min-height: 400px;margin-top: 60px;flex-direction: column;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(var(--black));
+  color: rgb(var(--color));
+  position: relative;
+  display: flex;
+  background-imag: linear-gradient(to bottom, rgb(var(--color)),rgb(var(--color),.9));
+}make {
+    width: 100px;
+    position: relative;
+    font-size: 42px;
+}
+
+make:after {
+  content: "";
+  position: absolute;
+  bottom: 0;left: 0;
+  width: 125px;border-radius: 4;
+  height: 6px;
+  background-image: linear-gradient(90deg, #ff4300 0%, #f913b4 99.44%);
+}
+
+select {
+  width: 100px;
+  padding: 10px 15px;
+  background-color: rgb(var(--background));
+  color: rgb(var(--color));
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+p {
+  animation: .9s hi linear;
+}
+@keyframes hi {
+  from {
+    opacity: .8;
+    transform: translateY(-16px);
+  }
+  to {
+    opacity: 1;
+  }
+}
