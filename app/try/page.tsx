@@ -1,7 +1,7 @@
 "use client"
 import { useRouter } from 'next/navigation';
 import styles from "./try.module.css";
-import LanguageDropdowncustom from "./LanguageDropdowncustom/languageDropdown";
+import LanguageDropdowncustom from "./LanguageDropdowncustom";
 import CharacterDropdown from "./characterDropdown/CharacterDropdown";
 import TextareaCounter from "./textareaCounter"
 const Try = () => {
