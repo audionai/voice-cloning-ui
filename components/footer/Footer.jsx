@@ -1,4 +1,4 @@
-import LanguageDropdown from "./LanguageDropdown"
+import LanguageDropdown from "./LanguageDropdown/page"
 import styles from "./footer.module.css";
 
 const Footer = () => {
