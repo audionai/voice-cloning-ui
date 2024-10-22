@@ -4,29 +4,29 @@ import React, { useState } from 'react';
 import styles from "./sound.module.css"
 
 const sounddropdown = () => {
-  const [selectedLanguage, setSelectedLanguage] = 
-useState('en-US');
-  const [showOptions, setShowOptions] = 
-useState(false);
+//   const [selectedLanguage, setSelectedLanguage] = 
+// useState('en-US');
+//   const [showOptions, setShowOptions] = 
+// useState(false);
 
-  const sounds = [
-    { value: 'en-US', label: 'Beep' },
-    { value: 'es-ES', label: 'Bell' },
-    { value: 'fr-FR', label: 'Laught' },
-    // Add more language options as needed
-  ];
+//   const sounds = [
+//     { value: 'en-US', label: 'Beep' },
+//     { value: 'es-ES', label: 'Bell' },
+//     { value: 'fr-FR', label: 'Laught' },
+//     // Add more language options as needed
+//   ];
 
-  const handleLanguageChange = (value) => {
-    setSelectedLanguage(value);
-  };
+//   const handleLanguageChange = (value) => {
+//     setSelectedLanguage(value);
+//   };
 
-  const toggleOptions = () => {
-    setShowOptions(!showOptions);
-  };
+//   const toggleOptions = () => {
+//     setShowOptions(!showOptions);
+//   };
 
   return (
     <div className={styles.dropdown}>
-      <button
+{/*       <button
         className={`${styles.button} ${showOptions ? styles.open :       
 ''}`}
         onClick={toggleOptions}
@@ -51,7 +51,7 @@ selectedLanguage).label}`}
             </li>
           ))}
         </ul>
-      )}
+      )} */}
     </div>
   );
 };
