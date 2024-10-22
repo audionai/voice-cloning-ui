@@ -3,7 +3,7 @@
 import styles from './voice-cutter.module.css'
 // import { useRouter } from 'next/navigation'
 
-// const Voice = () => {
+const Voice = () => {
 //     const router = useRouter();
 
 //     const handleClick = () => {
