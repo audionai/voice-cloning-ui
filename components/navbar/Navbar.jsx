@@ -1,4 +1,4 @@
-import Links from "./links/page";
+// import Links from "./links/page";
 // import Button from "./next/button";
 import styles from "./navbar.module.css"
 
@@ -15,7 +15,7 @@ const Navbar = () => {
 <svg width="96px" height="54px" fill="rgb(var(--color))" viewBox="0 0 76 34"><defs><filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1"><feFlood flood-opacity="0" result="BackgroundImageFix" /><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0" /><feOffset dx="0" dy="2" /><feGaussianBlur stdDeviation="2" /><feColorMatrix type="matrix" values="0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0.49803922 0" /><feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" /><feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" /></filter></defs><g id="Mava" transform="translate(6 4)"><g transform="translate(0, 0.9)" id="Mava" /*filter="url(#filter_1)"*/><path d="M1.35 4.5L9.9 13.05L18.45 4.5L18.45 20.7L15.75 20.7L15.75 11.7L9.9 17.55L4.05 11.7L4.05 20.7L1.35 20.7L1.35 4.5ZM35.55 20.7L32.4 20.7L31.302 18L25.398 18L24.3 20.7L21.15 20.7L28.35 4.5L35.55 20.7ZM26.514 15.3L30.186 15.3L28.35 10.8L26.514 15.3ZM49.05 4.5L45.9 4.5L41.85 14.4L37.8 4.5L34.65 4.5L41.85 20.7L49.05 4.5ZM62.55 20.7L59.4 20.7L58.302 18L52.398 18L51.3 20.7L48.15 20.7L55.35 4.5L62.55 20.7ZM53.514 15.3L57.186 15.3L55.35 10.8L53.514 15.3Z" /></g></g></svg>
             </div>
             <div className={styles.links_h}>
-                <Links/>
+{/*                 <Links/> */}
             </div>
             <div className={styles.button_h}>
                 {/* <Button>Sign up</Button> */}
