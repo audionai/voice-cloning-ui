@@ -1,19 +1,31 @@
-import Wavesurfer from 'wavesurfer.js';
+import WaveSurfer from 'wavesurfer.js';
 import { useState, useEffect, useRef } from 'react';
 
 const AudioPreview = () => {
-  const [file, setFile] = useState(null);
-  const wavesurfer = useRef(null);
+  const [file, setFile] = useState<string | null>(null);
+  const wavesurfer = useRef<WaveSurfer | null>(null); // Updated type
 
   useEffect(() => {
     if (file) {
-      wavesurfer.current = new Wavesurfer('audio-player', {
-        container: '#audio-player',
-        waveColor: 'black',
-        progressColor: 'gray',
-      });
-      wavesurfer.current.load(file);
+      // Ensure WaveSurfer instance is created if it doesn't exist
+      if (!wavesurfer.current) {
+        wavesurfer.current = WaveSurfer.create({
+          container: '#audio-player',
+          waveColor: 'black',
+          progressColor: 'gray',
+        });
+      }
+
+      wavesurfer.current.load(file); // Load the audio file
     }
+
+    return () => {
+      // Cleanup WaveSurfer instance on unmount
+      if (wavesurfer.current) {
+        wavesurfer.current.destroy();
+        wavesurfer.current = null;
+      }
+    };
   }, [file]);
 
   return (
@@ -21,4 +33,4 @@ const AudioPreview = () => {
   );
 };
 
-export default AudioPreview
+export default AudioPreview;
