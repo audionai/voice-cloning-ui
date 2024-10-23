@@ -114,7 +114,7 @@ const Links = () => {
                     )}
                 </li>
             ))}
-            <button onClick={()=>setOpen((prev)=>!prev)} className={styles.menu_btn}><img src="icon/menu/solid/menu-line-horizontal.svg"/></button>
+            <button onClick={()=>setOpen((prev)=>!prev)} className={styles.menu_btn}><Image width={60} height={60} alt="aiimage" src="icon/menu/solid/menu-line-horizontal.svg"/></button>
             {
                 open && (
                 <div className={styles.mobileLinks}>

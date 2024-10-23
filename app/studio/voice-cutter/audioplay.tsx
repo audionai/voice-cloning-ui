@@ -1,13 +1,13 @@
-import Wavesurfer from 'wavesurfer.js';
+import WaveSurfer from 'wavesurfer.js';
 import { useState, useEffect, useRef } from 'react';
 
 const AudioPreview = () => {
   const [file, setFile] = useState(null);
-  const wavesurfer = useRef(null);
+  const wavesurfer = useRef<WaveSurfer | null>(null);
 
   useEffect(() => {
-    if (file) {
-      wavesurfer.current = new Wavesurfer('audio-player', {
+    if (file && wavesurfer.current) {
+      wavesurfer.current = WaveSurfer.create({
         container: '#audio-player',
         waveColor: 'black',
         progressColor: 'gray',
@@ -21,4 +21,4 @@ const AudioPreview = () => {
   );
 };
 
-export default AudioPreview
+export default AudioPreview;

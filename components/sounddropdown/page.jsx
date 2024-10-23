@@ -1,13 +1,10 @@
 "use client"
-
 import React, { useState } from 'react';
-import styles from "./sound.module.css"
+import styles from "./sound.module.css";
 
-const sounddropdown = () => {
-  const [selectedLanguage, setSelectedLanguage] = 
-useState('en-US');
-  const [showOptions, setShowOptions] = 
-useState(false);
+const SoundDropdown = () => {
+  const [selectedLanguage, setSelectedLanguage] = useState('en-US');
+  const [showOptions, setShowOptions] = useState(false);
 
   const sounds = [
     { value: 'en-US', label: 'Beep' },
@@ -27,14 +24,12 @@ useState(false);
   return (
     <div className={styles.dropdown}>
       <button
-        className={`${styles.button} ${showOptions ? styles.open :       
-''}`}
+        className={`${styles.button} ${showOptions ? styles.open : ''}`}
         onClick={toggleOptions}
       >
         {selectedLanguage === 'en-US'
           ? 'none'
-          : `${sounds.find((lang) => lang.value === 
-selectedLanguage).label}`}
+          : `${sounds.find((lang) => lang.value === selectedLanguage).label}`}
       </button>
       {showOptions && (
         <ul className={styles.options}>
@@ -56,4 +51,4 @@ selectedLanguage).label}`}
   );
 };
 
-export default sounddropdown;
+export default SoundDropdown;

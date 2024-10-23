@@ -316,3 +316,7 @@ div::-webkit-scrollbar {
 .explore:hover {
   background-color: rgb(var(--my-color),.1);
 }
+
+canvas {
+  width: 90px!important;
+}

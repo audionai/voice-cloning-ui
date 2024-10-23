@@ -11,11 +11,11 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Home() {
         const [showScrollToTop, setShowScrollToTop] = useState(false);
-      const { locale } = useRouter();
-      const greetings = {
-        en: 'he',
-        fr: 'fr'
-      }
+      // const { locale } = useRouter();
+      // const greetings = {
+      //   en: 'he',
+      //   fr: 'fr'
+      // }
         const handleScroll = () => {
           const currentPosition = window.scrollY;
           if (currentPosition > 100) {
@@ -33,8 +33,8 @@ export default function Home() {
             <p className={styles.mava_txt}>
                     Create human-quality 
                     voices in seconds.
-                    {locale}
-                    {greetings[locale]}
+                    {/* {locale}
+                    {greetings[locale]} */}
                 </p><p className={styles.mava_txt_2}>Text-to-Speech that sounds neutral.</p>
                 <p className={styles.mava_main_text}></p>
                <p className={styles.mava_nar}>
