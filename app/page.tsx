@@ -11,11 +11,11 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Home() {
         const [showScrollToTop, setShowScrollToTop] = useState(false);
-      const { locale } = useRouter();
-      const greetings = {
-        en: 'he',
-        fr: 'fr'
-      }
+      // const { locale } = useRouter();
+      // const greetings = {
+        // en: 'he',
+        // fr: 'fr'
+      // }
         const handleScroll = () => {
           const currentPosition = window.scrollY;
           if (currentPosition > 100) {
