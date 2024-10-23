@@ -1,13 +1,6 @@
-'use client';
+"use client"
 import React, { useState } from 'react';
-<<<<<<< HEAD
 import styles from "./faq.module.css";
-=======
-import styles from './faq.module.css';
-
-const Faq = () => {
-  const [expanded, setExpanded] = useState<{ [key: number]: boolean }>({});
->>>>>>> a1ccfa47d2d746c57f0806befa15c1466de40ce0
 
 const Faq = () => {
   const [expanded, setExpanded] = useState<{ [key: number]: boolean }>({});
@@ -22,14 +15,8 @@ const Faq = () => {
     },
     {
       question: 'What is voice cutting AI',
-<<<<<<< HEAD
       answer: 'The system requirements for our product/service are as follows: [insert system requirements here].',
     }
-=======
-      answer:
-        'The system requirements for our product/service are as follows: [insert system requirements here].',
-    },
->>>>>>> a1ccfa47d2d746c57f0806befa15c1466de40ce0
   ];
 
   const toggleExpand = (index: number) => {
@@ -45,39 +32,16 @@ const Faq = () => {
             <h5 className={styles.faq_line}>{item.question}</h5>
             <i
               onClick={() => toggleExpand(index)}
-<<<<<<< HEAD
               // className={`fas ${expanded[index] ? 'fa-minus' : 'fa-plus'} `}
               className={styles.plus_icon}
             >
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12.75 6C12.75 5.58579 12.4142 5.25 12 5.25C11.5858 5.25 11.25 5.58579 11.25 6H12.75ZM11.25 18C11.25 18.4142 11.5858 18.75 12 18.75C12.4142 18.75 12.75 18.4142 12.75 18H11.25ZM18 12.75C18.4142 12.75 18.75 12.4142 18.75 12C18.75 11.5858 18.4142 11.25 18 11.25V12.75ZM6 11.25C5.58579 11.25 5.25 11.5858 5.25 12C5.25 12.4142 5.58579 12.75 6 12.75L6 11.25ZM11.25 6V18H12.75V6H11.25ZM18 11.25L6 11.25L6 12.75L18 12.75V11.25Z" fill="rgb(var(--color))"/>
-=======
-              className={styles.plus_icon}
-            >
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.75 6C12.75 5.58579 12.4142 5.25 12 5.25C11.5858 5.25 11.25 5.58579 11.25 6H12.75ZM11.25 18C11.25 18.4142 11.5858 18.75 12 18.75C12.4142 18.75 12.75 18.4142 12.75 18H11.25ZM18 12.75C18.4142 12.75 18.75 12.4142 18.75 12C18.75 11.5858 18.4142 11.25 18 11.25V12.75ZM6 11.25C5.58579 11.25 5.25 11.5858 5.25 12C5.25 12.4142 5.58579 12.75 6 12.75L6 11.25ZM11.25 6V18H12.75V6H11.25ZM18 11.25L6 11.25L6 12.75L18 12.75V11.25Z"
-                  fill="rgb(var(--color))"
-                />
->>>>>>> a1ccfa47d2d746c57f0806befa15c1466de40ce0
               </svg>
             </i>
           </div>
           {expanded[index] && (
-<<<<<<< HEAD
             <p dangerouslySetInnerHTML={{ __html: item.answer }} className={styles.faq_answer} />
-=======
-            <p
-              dangerouslySetInnerHTML={{ __html: item.answer }}
-              className={styles.faq_answer}
-            />
->>>>>>> a1ccfa47d2d746c57f0806befa15c1466de40ce0
           )}
         </div>
       ))}

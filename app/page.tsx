@@ -13,13 +13,8 @@ export default function Home() {
         const [showScrollToTop, setShowScrollToTop] = useState(false);
       // const { locale } = useRouter();
       // const greetings = {
-<<<<<<< HEAD
       //   en: 'he',
       //   fr: 'fr'
-=======
-        // en: 'he',
-        // fr: 'fr'
->>>>>>> a1ccfa47d2d746c57f0806befa15c1466de40ce0
       // }
         const handleScroll = () => {
           const currentPosition = window.scrollY;
@@ -38,13 +33,8 @@ export default function Home() {
             <p className={styles.mava_txt}>
                     Create human-quality 
                     voices in seconds.
-<<<<<<< HEAD
                     {/* {locale}
                     {greetings[locale]} */}
-=======
-{/*                     {locale} */}
-{/*                     {greetings[locale]} */}
->>>>>>> a1ccfa47d2d746c57f0806befa15c1466de40ce0
                 </p><p className={styles.mava_txt_2}>Text-to-Speech that sounds neutral.</p>
                 <p className={styles.mava_main_text}></p>
                <p className={styles.mava_nar}>
@@ -160,3 +150,4 @@ export default function Home() {
                 </main>
     )
 };
+    // )
