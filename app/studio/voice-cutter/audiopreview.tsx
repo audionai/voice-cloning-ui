@@ -1,4 +1,4 @@
-import Wavesurfer from 'wavesurfer';
+import Wavesurfer from 'wavesurfer.js';
 import { useEffect, useState, useRef } from 'react';
 
 const AudioPreview = () => {
