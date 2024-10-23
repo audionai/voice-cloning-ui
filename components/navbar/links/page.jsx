@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import styles from "../navbar.module.css";
-import NavLink from "./navlink/navLink";
+import NavLink from "./navlink/page";
 import Image from "next/image"
 // import styles from "./links.module.css";
 import { useState } from 'react';

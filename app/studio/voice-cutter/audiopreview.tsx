@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import WaveSurfer from 'wavesurfer.js';
+=======
+import Wavesurfer from 'wavesurfer.js';
+>>>>>>> a1ccfa47d2d746c57f0806befa15c1466de40ce0
 import { useEffect, useState, useRef } from 'react';
 
 const AudioPreview = () => {
@@ -21,4 +25,8 @@ const AudioPreview = () => {
   );
 };
 
+<<<<<<< HEAD
 export default AudioPreview;
+=======
+export default AudioPreview
+>>>>>>> a1ccfa47d2d746c57f0806befa15c1466de40ce0
